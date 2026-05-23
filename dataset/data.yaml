@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Bacterial_spot', 'Late_blight', 'black_rot', 'healthy']
+
+roboflow:
+  workspace: worktest-mffu1
+  project: plant-disease-ur9qa
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/worktest-mffu1/plant-disease-ur9qa/dataset/6
